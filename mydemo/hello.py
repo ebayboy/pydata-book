@@ -1,10 +1,11 @@
-import sys
+counter = 100
+miles = 1000.0
+name = "runoob"
 
-print("system params:")
+print(counter)
+print(miles)
+print(name)
 
-for i in sys.argv:
-    print("i:", i)
 
-print("sys.path:", sys.path)
 
 
