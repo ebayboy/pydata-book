@@ -1,8 +1,9 @@
 import sys
 
 import pandas as pd
-import pymysql
 from sqlalchemy import create_engine
+
+# mysql操作： 通过 mysql + pandas.dataframe +sqlalchemy + pymysql
 
 # config
 mysql_cfg = {
