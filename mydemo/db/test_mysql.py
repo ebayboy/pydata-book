@@ -13,6 +13,7 @@ mysql_cfg = {
     "port": "3306",
     "db": "test"
 }
+
 engine = create_engine(
     "mysql+pymysql://{}:{}@{}:{}/{}".format(mysql_cfg["username"], mysql_cfg["passwd"], mysql_cfg["host"],
                                             mysql_cfg["port"], mysql_cfg["db"]))
