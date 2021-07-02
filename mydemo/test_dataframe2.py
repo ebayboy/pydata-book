@@ -65,7 +65,9 @@ print("=====================\ndata:\n{}".format(data))
 data_1 = data.drop(['Colorado', 'Ohio'])
 print("=====================\ndata:\n{}".format(data_1))
 
-# drop删除列
+# axis='index' <== axis=0
+
+# drop删除列  axis='columns' <== axis=1
 data_2 = data.drop(['tow', 'four'], axis='columns')
 print("=====================\ndata:\n{}".format(data_2))
 
@@ -75,19 +77,8 @@ data3.drop(['Colorado', 'Ohio'], inplace=True)
 print("=====================\ndata:\n{}".format(data3))
 
 data4 = data.copy()
-data4.drop(['tow', 'four'], axis=1, inplace=True)
-print("=====================\ndata:\n{}".format(data4))
-
-
-
-
-
-
-
-
-
-
-
-
+print("=====================\ndata4:\n{}".format(data4))
+data4.drop(['tow', 'four'], axis=1, inplace=True) # 从左到右逐列删除
+# print("=====================\ndata:\n{}".format(data4))
 
 
