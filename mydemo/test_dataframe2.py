@@ -45,7 +45,6 @@ frame3 = frame.copy()
 loc1 = frame3.loc[['a', 'c', 'd'], ['Beijing', 'Shanghai']]
 print("=====================\nframe.loc:\n{}".format(loc1))
 
-
 # drop方法删除行
 obj = pd.Series(np.arange(5), index=['a', 'b', 'c', 'd', 'e'])
 print("=====================\nobj:\n{}".format(obj))
