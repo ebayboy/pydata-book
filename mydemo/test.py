@@ -1,16 +1,13 @@
 #!/usr/bin/python
 
-a = 'foo'
+import numpy as np
+import pandas as pd
 
-def isiterable(obj):
-    try:
-        iter(obj)
-        return True
-    except TypeError:
-        return False
+ser = pd.Series(np.arange(0, 5), index=list('abcde'))
 
-print(isiterable('a string'))
+print("ser:\n{}".format(ser))
 
-print(isiterable([1, 2, 3]))
+del ser['b']
+print("ser:\n{}".format(ser))
 
-print(isiterable(5))
+

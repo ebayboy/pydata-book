@@ -82,3 +82,16 @@ data4.drop(['tow', 'four'], axis=1, inplace=True) # 从左到右逐列删除
 # print("=====================\ndata:\n{}".format(data4))
 
 
+ser = pd.Series(range(5))
+print("====ser:\n{}".format(ser))
+ser1 = ser.reindex(list('abcde'))
+print("====ser:\n{}".format(ser1))
+
+
+obj = pd.Series(range(4))
+print("obj:{}".format(obj))
+print("obj.index:{}".format(obj.index))
+print("obj:{}".format(obj.reindex(list('abcde'))))
+obj1 = pd.Series(range(4), index=['d', 'b', 'a', 'c'])
+print("obj.index:{}".format(obj1.index))
+
