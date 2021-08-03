@@ -92,10 +92,12 @@ log	examples/fdic_failed_bank_list.html	/^	function log(event, data, formatted) 
 logic	mydemo/other/find_str.py	/^logic = "1|2|3&4"$/;"	v
 lst	3.1.3.1_enumerate.py	/^lst = np.arange(1, 10)$/;"	v
 lst	3.1.3.2_sorted.py	/^lst = np.random.randint(1, 10, 5)$/;"	v
+lst	3.1.3.4_reversed.py	/^lst = np.arange(1, 10)$/;"	v
 lst1	mydemo/3.1.1_tuple.py	/^lst1 = [1,2,3]$/;"	v
 lst2	mydemo/3.1.1_tuple.py	/^lst2 = [4,5,6]$/;"	v
 lst3	mydemo/3.1.1_tuple.py	/^lst3 = lst1 + lst2$/;"	v
 lst4	mydemo/3.1.1_tuple.py	/^lst4= []$/;"	v
+lst_reversed	3.1.3.4_reversed.py	/^lst_reversed = list(reversed(lst))$/;"	v
 lst_sorted	3.1.3.2_sorted.py	/^lst_sorted = sorted(lst)$/;"	v
 lst_zip3	3.1.3.3_zip.py	/^lst_zip3 = list(zip3)$/;"	v
 lst_zipped	3.1.3.3_zip.py	/^lst_zipped = list(zipped)$/;"	v
