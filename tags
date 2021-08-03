@@ -1,0 +1,206 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Hello	examples/hello/hello.py	/^def Hello(name):$/;"	f
+a	mydemo/3.1.1_tuple.py	/^a = (1, 2, 2, 2, 3, 4, 2)$/;"	v
+a	mydemo/3.1.1_tuple.py	/^a = ['bb', 'ccc', 'a']$/;"	v
+a	mydemo/3.1.1_tuple.py	/^a = np.random.randint(1, 100, 10)$/;"	v
+a	mydemo/test_dataframe5.2.6.py	/^a = 3.1415926$/;"	v
+arg	mydemo/test_dataframe2.py	/^arg = np.arange(9)$/;"	v
+arr	mydemo/test_dataframe5.2.5.2.py	/^arr = np.arange(12.).reshape((3,4))$/;"	v
+b	mydemo/test_3.1.2.5.py	/^b = seq[1:5]$/;"	v
+b	mydemo/test_dataframe5.2.6.py	/^b = fmt(a)$/;"	v
+c	mydemo/3.1.1_tuple.py	/^c = [1,2,2,2,3,4,7]$/;"	v
+calling_things	examples/ipython_bug.py	/^def calling_things():$/;"	f
+cdata	mydemo/test_dataframe2.py	/^cdata  =np.arange(16).reshape(4,4)$/;"	v
+columns	mydemo/test_dataframe3.py	/^        columns=['one', 'tow', 'three', 'four'])$/;"	v
+columns	mydemo/test_dataframe4.py	/^        columns=['one', 'tow', 'three', 'four'])$/;"	v
+columns	mydemo/test_dataframe5.2.5.2.py	/^        columns=['c0', 'c1', 'c2'])$/;"	v
+counter	mydemo/hello.py	/^counter = 100$/;"	v
+data	datasets/mta_perf/parse.py	/^data = []$/;"	v
+data	mydemo/test_5.3.2.py	/^data = pd.DataFrame({'Qu1':[1, 3, 4, 3, 4], 'Qu2':[2, 3, 1, 2, 3], 'Qu3':[1, 5 ,2, 4, 4]})$/;"	v
+data	mydemo/test_dataframe.py	/^data = {'state': ['Beijing', 'Shanghai', 'HeBei', 'ShanDong'],$/;"	v
+data	mydemo/test_dataframe2.py	/^data = pd.DataFrame(cdata, index=states, columns=['one', 'tow', 'three', 'four'])$/;"	v
+data	mydemo/test_dataframe3.py	/^data = pd.DataFrame(np.arange(16).reshape(4,4), index=['Ohio', 'Colorado', 'Utah', 'New york'], $/;"	v
+data3	mydemo/test_dataframe2.py	/^data3 = data.copy()$/;"	v
+data4	mydemo/test_dataframe2.py	/^data4 = data.copy()$/;"	v
+data_1	mydemo/test_dataframe2.py	/^data_1 = data.drop(['Colorado', 'Ohio'])$/;"	v
+data_2	mydemo/test_dataframe2.py	/^data_2 = data.drop(['tow', 'four'], axis='columns')$/;"	v
+dec	mydemo/test_str.py	/^dec = enc.decode()$/;"	v
+df	mydemo/test_dataframe.5.3.py	/^df = pd.DataFrame([[1.4, np.nan], [7.1, -4.5], [np.nan, np.nan], [0.75, -1.3]], index=list('abcd'), columns=['one', 'tow'])$/;"	v
+df	mydemo/test_dataframe2.py	/^df = pd.Series(range(3), index=['a', 'b', 'c'])$/;"	v
+df	mydemo/test_dataframe_5.2.8.py	/^df = pd.DataFrame(np.random.randn(4,3), index=list('aabb'))$/;"	v
+df1	mydemo/test_dataframe.py	/^df1 = pd.DataFrame(data)$/;"	v
+df1	mydemo/test_dataframe4.py	/^df1 = pd.DataFrame(np.arange(start=0, stop=16, step=1).reshape(4,4), index=['r0', 'r1', 'r2', 'r3'], columns=['c0', 'c1', 'c2', 'c3'])$/;"	v
+df1_cp	mydemo/test_dataframe4.py	/^df1_cp = df1.copy()$/;"	v
+df2	mydemo/test_dataframe.py	/^df2 = pd.DataFrame(data, columns=['year', 'pop', 'state'])$/;"	v
+df2	mydemo/test_dataframe2.py	/^df2 = df.reindex(index=['a', 'c', 'd', 'e'])$/;"	v
+df2	mydemo/test_dataframe4.py	/^df2 = pd.DataFrame(np.arange(start=0, stop=32,step=2).reshape(4,4), index=['r0', 'r2', 'r3', 'r4'], columns=['c0', 'c2', 'c3', 'c4'])$/;"	v
+df3	mydemo/test_dataframe.py	/^df3 = pd.DataFrame(data, columns=['year', 'state', 'size'])$/;"	v
+df3	mydemo/test_dataframe4.py	/^df3 = df1 + df2$/;"	v
+df4	mydemo/test_dataframe.py	/^df4 = pd.DataFrame(data, columns=['state', 'pop', 'year'], index=idxs)$/;"	v
+df4	mydemo/test_dataframe4.py	/^df4 = df1.add(df2, fill_value=0)$/;"	v
+df5	mydemo/test_dataframe.py	/^df5 = pd.DataFrame(data, index=['one', 'tow', 'tree', 'four'])$/;"	v
+df5	mydemo/test_dataframe4.py	/^df5 = df1_cp.copy()$/;"	v
+df6	mydemo/test_dataframe.py	/^df6 = pd.DataFrame(pop)$/;"	v
+df7	mydemo/test_dataframe.py	/^df7 = df6.copy()$/;"	v
+df8	mydemo/test_dataframe.py	/^df8 = pd.DataFrame(pdata)$/;"	v
+df_read	mydemo/db/test_mysql.py	/^df_read = pd.read_sql_query(sql_query, engine)$/;"	v
+df_write	mydemo/db/test_mysql.py	/^df_write = pd.DataFrame({'id': [10, 27, 34, 46], 'name': ['张三', '李四', '王五', '赵六'], 'age': [80, 75, 56, 99]})$/;"	v
+dic	mydemo/test_dic.py	/^dic = {'one': '1 - rose', 2: '2 - fanpf'}$/;"	v
+el_data	datasets/mta_perf/parse.py	/^    el_data = {}$/;"	v
+enc	mydemo/test_str.py	/^enc = s.encode(encoding='utf-8', errors='strict')$/;"	v
+ends	mydemo/test_str.py	/^ends = s.endswith('llo.')$/;"	v
+engine	mydemo/db/test_mysql.py	/^engine = create_engine($/;"	v
+expr	mydemo/other/find_str.py	/^expr = "^\\d+[&|](\\d+[&|]){0,}\\d+$"$/;"	v
+f	mydemo/test_dataframe5.2.6.py	/^def f(x):$/;"	f
+f	mydemo/test_dataframe5.2.6.py	/^f = lambda x : x.max() - x.min()$/;"	v
+f	mydemo/test_str.py	/^f = s.find('world')$/;"	v
+f2	mydemo/test_str.py	/^f2 = s.find('1111')$/;"	v
+factorial	mydemo/test_timeit.py	/^def factorial(n):$/;"	f
+findValue	examples/fdic_failed_bank_list.html	/^function findValue(li) {$/;"	f
+findValue2	examples/fdic_failed_bank_list.html	/^function findValue2(li) {$/;"	f
+fmt	mydemo/test_dataframe5.2.6.py	/^fmt = lambda x: '%.2f' % x$/;"	v
+formatItem	examples/fdic_failed_bank_list.html	/^	function formatItem(row) {$/;"	f
+formatResult	examples/fdic_failed_bank_list.html	/^	function formatResult(row) {$/;"	f
+frame	mydemo/test_dataframe2.py	/^frame = pd.DataFrame(rarg, index=['a', 'c', 'd'], columns=[$/;"	v
+frame	mydemo/test_dataframe5.2.5.2.py	/^frame = pd.DataFrame(np.arange(12.).reshape((4,3)), index=['r0', 'r1', 'r2', 'r3'],$/;"	v
+frame	mydemo/test_dataframe_5.2.7.py	/^frame = pd.DataFrame(np.random.random_integers(1,100, size=12).reshape(4,3), index=list('dacb'), columns=list('yxz'))$/;"	v
+frame1	mydemo/test_dataframe2.py	/^frame1 = frame.reindex(['a', 'b', 'c', 'd'])$/;"	v
+frame1	mydemo/test_dataframe5.2.5.2.py	/^frame1 = frame.add(ser1, axis='columns') # 行相加, 从左到右逐个元素进行add操作$/;"	v
+frame1	mydemo/test_dataframe_5.2.7.py	/^frame1 = frame.sort_index() # 默认axis = 0, 从上到下操作， 按照index排序$/;"	v
+frame11	mydemo/test_dataframe_5.2.7.py	/^frame11 = frame.sort_index(ascending = False) # 默认axis = 0, 从上到下操作， 按照index排序, asc = false, 降序$/;"	v
+frame2	mydemo/test_dataframe2.py	/^frame2 = frame.reindex(columns=['Beijing', 'Shanghai', 'Hebei'])$/;"	v
+frame2	mydemo/test_dataframe5.2.5.2.py	/^frame2 = frame.add(ser2, axis='index') #  axis = 0, 从上到下相加, 逐个元素进行add操作$/;"	v
+frame2	mydemo/test_dataframe_5.2.7.py	/^frame2 = frame.sort_index(axis=1) # 按列排序$/;"	v
+frame3	mydemo/test_dataframe2.py	/^frame3 = frame.copy()$/;"	v
+frame3	mydemo/test_dataframe_5.2.7.py	/^frame3 = pd.DataFrame({'b':[4,7,-3,2], 'a':[0,1,0,1]})$/;"	v
+gen	mydemo/3.1.1_tuple.py	/^gen = list(range(8))$/;"	v
+idx	mydemo/test_series.py	/^idx = ['a', 'b', 'c', 'd', 'e']$/;"	v
+idxs	mydemo/test_5.3.2.py	/^idxs = pd.Index(unique_vals).get_indexer(to_match)$/;"	v
+idxs	mydemo/test_dataframe.py	/^idxs = ['one', 'tow', 'tree', 'four']$/;"	v
+idxs1	mydemo/test_5.3.2.py	/^idxs1 = pd.Index(unique_vals)$/;"	v
+items	mydemo/other/in_inrange_test.py	/^items = {"rose": 32, "fanpf": 33, "fanyf": 29}$/;"	v
+j	mydemo/test_str.py	/^j = str.join('-', seq)$/;"	v
+l	mydemo/test_dataframe3.py	/^l = np.arange(5)$/;"	v
+list1	mydemo/list.py	/^list1 = ['fanpf', 786, 2.23, 'runoob', 70.2]$/;"	v
+loc1	mydemo/test_dataframe2.py	/^loc1 = frame3.loc[['a', 'c', 'd'], ['Beijing', 'Shanghai']]$/;"	v
+log	examples/fdic_failed_bank_list.html	/^	function log(event, data, formatted) {$/;"	f
+logic	mydemo/other/find_str.py	/^logic = "1|2|3&4"$/;"	v
+lst	3.1.3.1_enumerate.py	/^lst = np.arange(1, 10)$/;"	v
+lst	3.1.3.2_sorted.py	/^lst = np.random.randint(1, 10, 5)$/;"	v
+lst1	mydemo/3.1.1_tuple.py	/^lst1 = [1,2,3]$/;"	v
+lst2	mydemo/3.1.1_tuple.py	/^lst2 = [4,5,6]$/;"	v
+lst3	mydemo/3.1.1_tuple.py	/^lst3 = lst1 + lst2$/;"	v
+lst4	mydemo/3.1.1_tuple.py	/^lst4= []$/;"	v
+lst_sorted	3.1.3.2_sorted.py	/^lst_sorted = sorted(lst)$/;"	v
+lst_zip3	3.1.3.3_zip.py	/^lst_zip3 = list(zip3)$/;"	v
+lst_zipped	3.1.3.3_zip.py	/^lst_zipped = list(zipped)$/;"	v
+luoluo	mydemo/test_series.py	/^luoluo = obj3.loc['luoluo']$/;"	v
+mapping	3.1.3.1_enumerate.py	/^mapping = {}$/;"	v
+mask	mydemo/test_5.3.2.py	/^mask = obj.isin(list('bc'))$/;"	v
+miles	mydemo/hello.py	/^miles = 1000.0$/;"	v
+mysql_cfg	mydemo/db/test_mysql.py	/^mysql_cfg = {$/;"	v
+n	mydemo/test_conv.py	/^n = random.randrange(1, 100, 1)$/;"	v
+name	mydemo/hello.py	/^name = "runoob"$/;"	v
+names	mydemo/test_series.py	/^names = ['fanpf', 'rose', 'fanyx']$/;"	v
+names_3	mydemo/test_series.py	/^names_3 = ['luoluo', 'fanpf', 'rose', 'fanyx']$/;"	v
+obj	mydemo/test_5.3.2.py	/^obj = pd.Series(list('cadaabbc'))$/;"	v
+obj	mydemo/test_dataframe2.py	/^obj = pd.Series(np.arange(5), index=['a', 'b', 'c', 'd', 'e'])$/;"	v
+obj	mydemo/test_dataframe2.py	/^obj = pd.Series(range(4))$/;"	v
+obj	mydemo/test_dataframe3.py	/^obj = pd.Series(np.arange(5.), index=['a', 'b', 'c', 'd', 'e'])$/;"	v
+obj	mydemo/test_dataframe4.py	/^obj = pd.DataFrame(np.arange(16).reshape(4,4), index=['Beijing', 'Shanghai', 'Tianjin', 'Hebei'],$/;"	v
+obj	mydemo/test_dataframe5.2.6.py	/^obj = pd.DataFrame(np.random.randn(4,3), index=['r0', 'r1', 'r2', 'r3'], columns=['c0', 'c1', 'c2'])$/;"	v
+obj	mydemo/test_dataframe_5.2.7.py	/^obj = pd.Series([7, -5, 7, 4 ,2, 0 , 4])$/;"	v
+obj	mydemo/test_dataframe_5.2.8.py	/^obj = pd.Series(np.arange(0,5), index=list('aabbc'))$/;"	v
+obj	mydemo/test_series.py	/^obj = pd.Series(vTMW, idx)$/;"	v
+obj1	mydemo/test_dataframe2.py	/^obj1 = pd.Series(range(4), index=['d', 'b', 'a', 'c'])$/;"	v
+obj1	mydemo/test_dataframe3.py	/^obj1 = obj.copy()$/;"	v
+obj1	mydemo/test_dataframe5.2.6.py	/^obj1 = obj.apply(f, axis=0) # 从上向下 计算$/;"	v
+obj2	mydemo/test_dataframe3.py	/^obj2 = obj.copy()$/;"	v
+obj2	mydemo/test_dataframe5.2.6.py	/^obj2 = obj.apply(f, axis=1) # 从左到右 计算$/;"	v
+obj2	mydemo/test_series.py	/^obj2 = pd.Series(sdata, index=names)$/;"	v
+obj3	mydemo/test_dataframe2.py	/^obj3 = pd.Series(data=['blue', 'purple', 'yellow'], index=[0, 2, 4])$/;"	v
+obj3	mydemo/test_dataframe5.2.6.py	/^obj3 = obj.apply(f, axis=1)$/;"	v
+obj3	mydemo/test_series.py	/^obj3 = pd.Series(sdata, index=names_3)$/;"	v
+obj4	mydemo/test_dataframe2.py	/^obj4 = obj3.reindex(range(6), method='ffill')$/;"	v
+obj4	mydemo/test_dataframe5.2.6.py	/^obj4 = obj.applymap(fmt)$/;"	v
+obj_0	mydemo/test_series.py	/^obj_0 = pd.Series(vTMW)$/;"	v
+obj_1	mydemo/test_dataframe2.py	/^obj_1 = obj.drop('c')$/;"	v
+obj_2	mydemo/test_dataframe2.py	/^obj_2 = obj.drop(['c', 'd'])$/;"	v
+p	mydemo/other/find_str.py	/^p = re.compile("blue|white|red")$/;"	v
+parsed	datasets/mta_perf/parse.py	/^parsed = objectify.parse(open(path))$/;"	v
+path	datasets/mta_perf/parse.py	/^path = 'Performance_MNR.xml'$/;"	v
+pdata	mydemo/test_dataframe.py	/^pdata = { 'Ohio' : series1, 'Nevada': series2 }$/;"	v
+perf	datasets/mta_perf/parse.py	/^perf = DataFrame(data)$/;"	v
+pitchers	3.1.3.3_zip.py	/^pitchers = [('fan', 'pengfei'), ('lv', 'shijuan'), ('wang', 'hongbin')]$/;"	v
+pop	mydemo/test_dataframe.py	/^pop = {'Nevada': {2001: 2.4, 2002: 2.9},$/;"	v
+pos	mydemo/3.1.1_tuple.py	/^pos = bisect.bisect(c,2)$/;"	v
+pos	mydemo/3.1.1_tuple.py	/^pos = bisect.bisect(c,5)$/;"	v
+rarg	mydemo/test_dataframe2.py	/^rarg = np.reshape(arg, (3, 3))$/;"	v
+regp	mydemo/other/find_str.py	/^regp = re.compile(expr)$/;"	v
+repl	mydemo/other/find_str.py	/^repl = p.sub('color', 'blue socks and red shoes')$/;"	v
+res	mydemo/other/find_str.py	/^res = regp.match(logic)$/;"	v
+result	mydemo/test_5.3.2.py	/^result = data.apply(pd.value_counts).fillna(0)$/;"	v
+rg	mydemo/test_dataframe2.py	/^rg = range(9)$/;"	v
+root	datasets/mta_perf/parse.py	/^root = parsed.getroot()$/;"	v
+s	mydemo/other/match_all.py	/^s = '<html><head><title>Title<\/title>'$/;"	v
+s	mydemo/test_conv.py	/^s = 'hello world'$/;"	v
+s	mydemo/test_str.py	/^s = 'hello world llo llo.'$/;"	v
+s1	mydemo/test_dataframe.py	/^s1 = pd.Series([1, 2, 3], index=['one', 'tow', 'tree'])$/;"	v
+s2	mydemo/other/match_all.py	/^s2 = '<html><head><title>Title<\/title>'$/;"	v
+sdata	mydemo/test_series.py	/^sdata = {'rose': 32, 'fanpf': 33, 'fanyx': 8}$/;"	v
+selectItem	examples/fdic_failed_bank_list.html	/^function selectItem(li) {$/;"	f
+selectItem2	examples/fdic_failed_bank_list.html	/^function selectItem2(li) {$/;"	f
+sep	mydemo/test_str.py	/^sep = '-'$/;"	v
+seq	mydemo/3.1.1_tuple.py	/^seq = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]$/;"	v
+seq	mydemo/test_3.1.2.5.py	/^seq = [7, 2, 3, 7, 5, 6, 1]$/;"	v
+seq	mydemo/test_3.1.py	/^seq = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]$/;"	v
+seq	mydemo/test_str.py	/^seq = ['111', '222', '333']$/;"	v
+seq1	3.1.3.3_zip.py	/^seq1 = ['foo', 'bar', 'baz']$/;"	v
+seq2	3.1.3.3_zip.py	/^seq2 = ['one', 'tow', 'tree', 'four']$/;"	v
+seq3	3.1.3.3_zip.py	/^seq3 = [False, True]$/;"	v
+ser	mydemo/test.py	/^ser = pd.Series(np.arange(0, 5), index=list('abcde'))$/;"	v
+ser	mydemo/test_dataframe.5.3.py	/^ser = pd.Series(list('aabc')*4)$/;"	v
+ser	mydemo/test_dataframe2.py	/^ser = pd.Series(range(5))$/;"	v
+ser	mydemo/test_dataframe_5.2.7.py	/^ser = pd.Series(np.random.random_integers(1,100, size=4), index=['r1', 'r2', 'r0', 'r3'])$/;"	v
+ser1	mydemo/test_dataframe2.py	/^ser1 = ser.reindex(list('abcde'))$/;"	v
+ser1	mydemo/test_dataframe4.py	/^ser1 = pd.Series(np.arange(4), index=['a', 'b', 'c', 'd'])$/;"	v
+ser1	mydemo/test_dataframe5.2.5.2.py	/^ser1 = frame.iloc[0, :] # 选择第一行$/;"	v
+ser1	mydemo/test_dataframe_5.2.7.py	/^ser1 = ser.sort_index()$/;"	v
+ser2	mydemo/test_dataframe4.py	/^ser2 = pd.Series(np.arange(3.), index=['a', 'b', 'c'])$/;"	v
+ser2	mydemo/test_dataframe4.py	/^ser2 = pd.Series(np.arange(5), index=['a', 'c', 'd', 'f', 'g'])$/;"	v
+ser2	mydemo/test_dataframe5.2.5.2.py	/^ser2 = frame.iloc[:, 0] # 选择第一列$/;"	v
+ser2	mydemo/test_dataframe_5.2.7.py	/^ser2 = ser.copy()$/;"	v
+ser3	mydemo/test_dataframe4.py	/^ser3 = pd.Series(np.arange(3.))$/;"	v
+ser3	mydemo/test_dataframe4.py	/^ser3 = ser1 + ser2$/;"	v
+series1	mydemo/test_dataframe.py	/^series1 = df6['Ohio'][:-1]  # -1: 倒数第二个$/;"	v
+series2	mydemo/test_dataframe.py	/^series2 = df6['Nevada'][:2]  $/;"	v
+sites	mydemo/test_set.py	/^sites = sites | {'jd.com'}$/;"	v
+sites	mydemo/test_set.py	/^sites = {'google', 'taobao', 'runoob', 'facebook', 'google'}$/;"	v
+some_list	3.1.3.1_enumerate.py	/^some_list = ['foo', 'bar', 'baz']$/;"	v
+sql_query	mydemo/db/test_mysql.py	/^sql_query = "select * from student;"$/;"	v
+st	mydemo/test_str.py	/^st = s.startswith('hello')$/;"	v
+states	mydemo/test_dataframe2.py	/^states=['Ohio', 'Colorado', 'Utah' ,'New york']$/;"	v
+throws_an_exception	examples/ipython_bug.py	/^def throws_an_exception():$/;"	f
+tinydic	mydemo/test_dic.py	/^tinydic = {'name': 'runoob', 'code': 1, 'site': 'www.runoob.com'}$/;"	v
+tinytuple	mydemo/list.py	/^tinytuple = (123, 'runoob')$/;"	v
+tmp	mydemo/test_5.3.py	/^        tmp = pdr.get_data_fred(ticker)$/;"	v
+to_match	mydemo/test_5.3.2.py	/^to_match = pd.Series(list('cabbca'))$/;"	v
+tup	mydemo/3.1.1_tuple.py	/^tup = (4, 5, (6, 7))$/;"	v
+tup	mydemo/3.1.1_tuple.py	/^tup = (4, 5, 6)$/;"	v
+tup	mydemo/3.1.1_tuple.py	/^tup = tuple(['root', ['foo', 1, 2], True])$/;"	v
+tuple1	mydemo/list.py	/^tuple1 = ('abcd', 786, 2.23, 'runoob', 70.2)$/;"	v
+tuple3	mydemo/list.py	/^tuple3 = tuple1 + tinytuple$/;"	v
+unique_vals	mydemo/test_5.3.2.py	/^unique_vals = pd.Series(list('cba'))$/;"	v
+uniques	mydemo/test_5.3.2.py	/^uniques = obj.unique()$/;"	v
+vTMW	mydemo/test_series.py	/^vTMW = [101, 102, 103, 104, 105]$/;"	v
+values	mydemo/3.1.1_tuple.py	/^values = 1, 2, 3, 4, 5$/;"	v
+values	mydemo/test_3.1.py	/^values = 1, 2, 3, 4, 5$/;"	v
+works_fine	examples/ipython_bug.py	/^def works_fine():$/;"	f
+x	mydemo/other/except_test.py	/^        x = int(input("请输入一个数字:"))$/;"	v
+zip3	3.1.3.3_zip.py	/^zip3 = zip(seq1, seq2, seq3)$/;"	v
+zipped	3.1.3.3_zip.py	/^zipped = zip(seq1, seq2)$/;"	v
